@@ -411,7 +411,7 @@ Feel free to reach out!
 function copyReadme() {
   navigator.clipboard.writeText(readme).then(() => {
     const btn = document.getElementById('copyBtn');
-    btn.textContent = '✓ Copied to clipboard!';
+    btn.textContent = ' Copied to clipboard!';
     btn.classList.add('copied');
     setTimeout(() => {
       btn.textContent = 'Copy README Markdown →';
